@@ -1,10 +1,27 @@
 {
-  "ver": "2.0.13",
+  "ver": "2.0.14",
   "importer": "fbx",
   "imported": true,
   "uuid": "aee90582-839a-42e0-940a-1ba3faa31ae9",
   "files": [],
   "subMetas": {
+    "46193": {
+      "importer": "gltf-embeded-image",
+      "uuid": "aee90582-839a-42e0-940a-1ba3faa31ae9@46193",
+      "displayName": "",
+      "id": "46193",
+      "name": "coin.jpg.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
     "c6160": {
       "ver": "1.1.0",
       "importer": "gltf-mesh",
@@ -21,23 +38,6 @@
       "displayName": "",
       "id": "c6160",
       "name": "Cylinder001.mesh"
-    },
-    "df7df": {
-      "ver": "1.0.3",
-      "importer": "gltf-embeded-image",
-      "uuid": "aee90582-839a-42e0-940a-1ba3faa31ae9@df7df",
-      "imported": true,
-      "files": [
-        ".png",
-        ".json"
-      ],
-      "subMetas": {},
-      "userData": {
-        "gltfIndex": 0
-      },
-      "displayName": "",
-      "id": "df7df",
-      "name": "贴图 #1.image"
     },
     "a96a6": {
       "ver": "1.0.21",
@@ -57,7 +57,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "aee90582-839a-42e0-940a-1ba3faa31ae9@df7df"
+        "imageUuidOrDatabaseUri": "aee90582-839a-42e0-940a-1ba3faa31ae9@46193"
       },
       "displayName": "",
       "id": "a96a6",
@@ -99,8 +99,8 @@
   "userData": {
     "imageMetas": [
       {
-        "name": "贴图 #1",
-        "uri": "aee90582-839a-42e0-940a-1ba3faa31ae9@df7df"
+        "name": "coin.jpg",
+        "uri": "aee90582-839a-42e0-940a-1ba3faa31ae9@46193"
       }
     ],
     "redirect": "aee90582-839a-42e0-940a-1ba3faa31ae9@8038b",

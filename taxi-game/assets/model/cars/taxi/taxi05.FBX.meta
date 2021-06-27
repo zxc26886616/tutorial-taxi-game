@@ -1,5 +1,5 @@
 {
-  "ver": "2.0.13",
+  "ver": "2.0.14",
   "importer": "fbx",
   "imported": true,
   "uuid": "dfb49ec2-7be2-4377-864b-c4f6d82cd561",
@@ -124,39 +124,56 @@
         "gltfIndex": 6
       }
     },
-    "f537c": {
+    "cc384": {
       "importer": "gltf-embeded-image",
-      "uuid": "dfb49ec2-7be2-4377-864b-c4f6d82cd561@f537c",
+      "uuid": "dfb49ec2-7be2-4377-864b-c4f6d82cd561@cc384",
       "displayName": "",
-      "id": "f537c",
-      "name": "taxi05Green.jpg.image",
+      "id": "cc384",
+      "name": "taxi05Green.jpg-0.image",
+      "userData": {
+        "gltfIndex": 0
+      },
       "ver": "1.0.3",
       "imported": true,
       "files": [
         ".jpg",
         ".json"
       ],
-      "subMetas": {},
-      "userData": {
-        "gltfIndex": 0
-      }
+      "subMetas": {}
     },
-    "d9830": {
+    "9496e": {
       "importer": "gltf-embeded-image",
-      "uuid": "dfb49ec2-7be2-4377-864b-c4f6d82cd561@d9830",
+      "uuid": "dfb49ec2-7be2-4377-864b-c4f6d82cd561@9496e",
       "displayName": "",
-      "id": "d9830",
-      "name": "taxi05Light.png.image",
+      "id": "9496e",
+      "name": "taxi05Green.jpg-1.image",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ecbdb": {
+      "importer": "gltf-embeded-image",
+      "uuid": "dfb49ec2-7be2-4377-864b-c4f6d82cd561@ecbdb",
+      "displayName": "",
+      "id": "ecbdb",
+      "name": "taxi05Light.png-2.image",
+      "userData": {
+        "gltfIndex": 2
+      },
       "ver": "1.0.3",
       "imported": true,
       "files": [
         ".png",
         ".json"
       ],
-      "subMetas": {},
-      "userData": {
-        "gltfIndex": 2
-      }
+      "subMetas": {}
     },
     "7c0f3": {
       "importer": "texture",
@@ -179,7 +196,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "dfb49ec2-7be2-4377-864b-c4f6d82cd561@f537c"
+        "imageUuidOrDatabaseUri": "dfb49ec2-7be2-4377-864b-c4f6d82cd561@cc384"
       }
     },
     "733e8": {
@@ -202,8 +219,8 @@
         "mipfilter": "none",
         "premultiplyAlpha": false,
         "anisotropy": 0,
-        "isUuid": false,
-        "imageUuidOrDatabaseUri": "db://assets/model/cars/taxi/taxi05Green.jpg"
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "dfb49ec2-7be2-4377-864b-c4f6d82cd561@9496e"
       }
     },
     "a4d9b": {
@@ -224,7 +241,7 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "dfb49ec2-7be2-4377-864b-c4f6d82cd561@d9830"
+        "imageUuidOrDatabaseUri": "dfb49ec2-7be2-4377-864b-c4f6d82cd561@ecbdb"
       },
       "displayName": "",
       "id": "a4d9b",
@@ -299,15 +316,15 @@
     "imageMetas": [
       {
         "name": "taxi05Green.jpg",
-        "uri": "dfb49ec2-7be2-4377-864b-c4f6d82cd561@f537c"
+        "uri": "dfb49ec2-7be2-4377-864b-c4f6d82cd561@cc384"
       },
       {
-        "name": "taxi05Green",
-        "uri": "db://assets/model/cars/taxi/taxi05Green.jpg"
+        "name": "taxi05Green.jpg",
+        "uri": "dfb49ec2-7be2-4377-864b-c4f6d82cd561@9496e"
       },
       {
         "name": "taxi05Light.png",
-        "uri": "dfb49ec2-7be2-4377-864b-c4f6d82cd561@d9830"
+        "uri": "dfb49ec2-7be2-4377-864b-c4f6d82cd561@ecbdb"
       }
     ],
     "redirect": "dfb49ec2-7be2-4377-864b-c4f6d82cd561@fb28c",
